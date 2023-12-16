@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: "Book Antiqua", sans-serif;
+}
+
+#content {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#myImage, #myIcon {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #6a1b9a;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#textContainer {
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px;
+    border: 2px solid #6a1b9a;
+    border-radius: 8px;
+    font-family: "Book Antiqua", sans-serif;
+}
+
+h1 {
+    font-family: Georgia, serif;
+}
+
+#btnNext {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #6a1b9a;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#btnNext:hover {
+    background-color: #4a148c;
+}
+
+/* Adicionando estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    #content {
+        padding: 20px;
+    }
+}
+
+/* Adicione este estilo para ajustar o tamanho da imagem pequena na página 4 */
+.smallImage {
+    max-width: 30%; /* Você pode ajustar a porcentagem conforme necessário */
+    height: auto;
+    margin-top: 20px;
+}

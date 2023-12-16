@@ -17,7 +17,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-#myImage, #myIcon {
+#myImage, #myIcon, .smallImage {
     max-width: 100%;
     height: auto;
     border: 2px solid #6a1b9a;
@@ -38,7 +38,7 @@ h1 {
     font-family: Georgia, serif;
 }
 
-#btnNext {
+#btnNext, #btnSuplementacao {
     padding: 10px 20px;
     font-size: 16px;
     background-color: #6a1b9a;
@@ -50,20 +50,31 @@ h1 {
     margin-top: 20px;
 }
 
-#btnNext:hover {
+#btnNext:hover, #btnSuplementacao:hover {
     background-color: #4a148c;
 }
 
 /* Adicionando estilos para dispositivos móveis */
 @media only screen and (max-width: 600px) {
-    #content {
-        padding: 20px;
+    h1 {
+        font-size: 24px;
     }
-}
 
-/* Adicione este estilo para ajustar o tamanho da imagem pequena na página 4 */
-.smallImage {
-    max-width: 30%; /* Você pode ajustar a porcentagem conforme necessário */
-    height: auto;
-    margin-top: 20px;
+    #textContainer {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    #btnNext, #btnSuplementacao {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    #myImage, #myIcon, .smallImage {
+        margin-top: 10px;
+    }
 }

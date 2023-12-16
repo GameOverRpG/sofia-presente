@@ -74,4 +74,8 @@ h1 {
     #myImage, #myIcon, .smallImage {
         margin-top: 10px;
     }
+
+    #content {
+        padding: 10px;
+    }
 }
